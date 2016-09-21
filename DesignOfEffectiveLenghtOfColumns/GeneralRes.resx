@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ColumnsOfConstantSection" xml:space="preserve">
+    <value>Колонны постоянного сечения</value>
+  </data>
+  <data name="ColumnWithIncompleteCoupling" xml:space="preserve">
+    <value>Колонны с неполной связью</value>
+  </data>
+  <data name="DeterminationOfEffectiveLengthOfSteelColumns" xml:space="preserve">
+    <value>Определение расчетной длины металлических колонн</value>
+  </data>
+  <data name="SteppedColumns" xml:space="preserve">
+    <value>Ступенчатые колонны</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EffLength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EffLength.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="BearingOfColumn" xml:space="preserve">
+    <value>Тип опирания стойки</value>
+  </data>
+  <data name="BearingOfRafter" xml:space="preserve">
+    <value>Опирание стропильных конструкций</value>
+  </data>
+  <data name="BearingType" xml:space="preserve">
+    <value>Опирание колонн на фундамент</value>
+  </data>
+  <data name="BottomCrossbracingSwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\bottomcrossbracingswivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomCrossbracing_RigidBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\bottomcrossbracing_rigidbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomCrossbracing_SwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\bottomcrossbracing_swivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomStorey" xml:space="preserve">
+    <value>нижний</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="cm4" xml:space="preserve">
+    <value>см4</value>
+  </data>
+  <data name="Coefficient" xml:space="preserve">
+    <value>Коэффициент</value>
+  </data>
+  <data name="CoeffOfEffectLength" xml:space="preserve">
+    <value>Коэффициент расчетной длины</value>
+  </data>
+  <data name="Column_BottomCrossbracing_RigidBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_bottomcrossbracing_rigidbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_BottomCrossbracing_SwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_bottomcrossbracing_swivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_MultipleSpans_RigidBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_multiplespans_rigidbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_MultipleSpans_SwivelBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_multiplespans_swivelbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_OneSpan_RigidBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_onespan_rigidbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_OneSpan_SwivelBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_onespan_swivelbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_TopCrossbracing_RigidBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_topcrossbracing_rigidbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Column_TopCrossbracing_SwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\column_topcrossbracing_swivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConcernedColumn" xml:space="preserve">
+    <value>Рассматриваемая колонна</value>
+  </data>
+  <data name="ConcernedStorey" xml:space="preserve">
+    <value>Рассматриваемый этаж</value>
+  </data>
+  <data name="Design" xml:space="preserve">
+    <value>Расчет</value>
+  </data>
+  <data name="DuplicateLeftToRight" xml:space="preserve">
+    <value>Те же данные,
+что и слева</value>
+  </data>
+  <data name="EffectiveLenghtOfColumn" xml:space="preserve">
+    <value>Расчетная длина колонны</value>
+  </data>
+  <data name="EffectLength" xml:space="preserve">
+    <value>Расчетная длина</value>
+  </data>
+  <data name="EffectLengthMuOnH" xml:space="preserve">
+    <value>Расчетная длина (µ * h)</value>
+  </data>
+  <data name="EnterANumber" xml:space="preserve">
+    <value>Введите число.</value>
+  </data>
+  <data name="ExtermeColumn" xml:space="preserve">
+    <value>крайняя</value>
+  </data>
+  <data name="F1" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="F2andF1CanNotEqualZero" xml:space="preserve">
+    <value>Значения F2 и F1 не могут одновременно равняться нулю!</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>Нагрузка</value>
+  </data>
+  <data name="FrameType" xml:space="preserve">
+    <value>Тип рамы</value>
+  </data>
+  <data name="Frame_BottomCrossbracing_RigidBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_bottomcrossbracing_rigidbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_BottomCrossbracing_SwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_bottomcrossbracing_swivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_MultipleSpans_RigidBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_multiplespans_rigidbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_MultipleSpans_SwivelBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_multiplespans_swivelbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_OneSpan_RigidBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_onespan_rigidbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_OneSpan_SwivelBearingOfRafter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_onespan_swivelbearingofrafter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_TopCrossbracing_RigidBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_topcrossbracing_rigidbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame_TopCrossbracing_SwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\frame_topcrossbracing_swivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeFrame" xml:space="preserve">
+    <value>свободная</value>
+  </data>
+  <data name="FreeHeight" xml:space="preserve">
+    <value>Высота свободной части</value>
+  </data>
+  <data name="FreeMultiplestoreysBottomstoreyRigidbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreysbottomstoreyrigidbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysBottomstoreyRigidbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreysbottomstoreyrigidbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysBottomstoreySwivelbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreysbottomstoreyswivelbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysBottomstoreySwivelbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreysbottomstoreyswivelbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysMiddlestoreyExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreysmiddlestoreyexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysMiddlestoreyMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreysmiddlestoreymiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysTopstoreyExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreystopstoreyexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeMultiplestoreysTopstoreyMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freemultiplestoreystopstoreymiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeOnestoreyRigidbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freeonestoreyrigidbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeOnestoreyRigidbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freeonestoreyrigidbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeOnestoreySwivelbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freeonestoreyswivelbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FreeOnestoreySwivelbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\freeonestoreyswivelbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FullHeight" xml:space="preserve">
+    <value>Полная высота</value>
+  </data>
+  <data name="h" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="h1" xml:space="preserve">
+    <value>h1</value>
+  </data>
+  <data name="h2" xml:space="preserve">
+    <value>h2</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="I1" xml:space="preserve">
+    <value>I1</value>
+  </data>
+  <data name="I2" xml:space="preserve">
+    <value>I2</value>
+  </data>
+  <data name="Ic" xml:space="preserve">
+    <value>Ic</value>
+  </data>
+  <data name="IcOnIi" xml:space="preserve">
+    <value>Ic/Ii</value>
+  </data>
+  <data name="IcOnIs" xml:space="preserve">
+    <value>Ic/Is</value>
+  </data>
+  <data name="IcOnIs2" xml:space="preserve">
+    <value>Ic/Is2</value>
+  </data>
+  <data name="Ii" xml:space="preserve">
+    <value>Ii</value>
+  </data>
+  <data name="Ii1" xml:space="preserve">
+    <value>Ii1</value>
+  </data>
+  <data name="Ii2" xml:space="preserve">
+    <value>Ii2</value>
+  </data>
+  <data name="IncorrectValue" xml:space="preserve">
+    <value>Некорректно заданное значение.</value>
+  </data>
+  <data name="Is" xml:space="preserve">
+    <value>Is</value>
+  </data>
+  <data name="Is1" xml:space="preserve">
+    <value>Is1</value>
+  </data>
+  <data name="Is2" xml:space="preserve">
+    <value>Is2</value>
+  </data>
+  <data name="k" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="l" xml:space="preserve">
+    <value>l</value>
+  </data>
+  <data name="l1" xml:space="preserve">
+    <value>l1</value>
+  </data>
+  <data name="l2" xml:space="preserve">
+    <value>l2</value>
+  </data>
+  <data name="lef" xml:space="preserve">
+    <value>lef</value>
+  </data>
+  <data name="lef1" xml:space="preserve">
+    <value>lef1</value>
+  </data>
+  <data name="lef2" xml:space="preserve">
+    <value>lef2</value>
+  </data>
+  <data name="m" xml:space="preserve">
+    <value>м</value>
+  </data>
+  <data name="MiddleColumn" xml:space="preserve">
+    <value>средняя</value>
+  </data>
+  <data name="MiddleStorey" xml:space="preserve">
+    <value>средний</value>
+  </data>
+  <data name="MomInert" xml:space="preserve">
+    <value>Момент инерции</value>
+  </data>
+  <data name="MomInertOfBottomGirder" xml:space="preserve">
+    <value>Момент инерции нижнего ригеля</value>
+  </data>
+  <data name="MomInertOfColumn" xml:space="preserve">
+    <value>Момент инерции колонны</value>
+  </data>
+  <data name="MomInertOfGirder" xml:space="preserve">
+    <value>Момент инерции ригеля</value>
+  </data>
+  <data name="MomInertOfUpperGirder" xml:space="preserve">
+    <value>Момент инерции верхнего ригеля</value>
+  </data>
+  <data name="MomInetrtRatioOneGirder" xml:space="preserve">
+    <value>Соотношение между жест-
+костью колонны и ригеля</value>
+  </data>
+  <data name="MomInetrtRatioTwoGirders" xml:space="preserve">
+    <value>Соотношение между жест-
+костью колонны и ригелей</value>
+  </data>
+  <data name="mu" xml:space="preserve">
+    <value>µ</value>
+  </data>
+  <data name="mu1" xml:space="preserve">
+    <value>µ1</value>
+  </data>
+  <data name="mu2" xml:space="preserve">
+    <value>µ2</value>
+  </data>
+  <data name="multipleSpans" xml:space="preserve">
+    <value>два и более</value>
+  </data>
+  <data name="MultipleStoreys" xml:space="preserve">
+    <value>многоэтажная</value>
+  </data>
+  <data name="mustBeGreaterThanZeroPlural" xml:space="preserve">
+    <value>должны быть больше нуля!</value>
+  </data>
+  <data name="mustBeGreaterThanZeroSingle" xml:space="preserve">
+    <value>должно быть больше нуля!</value>
+  </data>
+  <data name="NotANumber" xml:space="preserve">
+    <value>не является числом!</value>
+  </data>
+  <data name="NotANumbers" xml:space="preserve">
+    <value>не являются числами!</value>
+  </data>
+  <data name="NotDefineValueFor" xml:space="preserve">
+    <value>Не задано значение для</value>
+  </data>
+  <data name="NotDefineValuesFor" xml:space="preserve">
+    <value>Не заданы значения для</value>
+  </data>
+  <data name="NumberOfSpans" xml:space="preserve">
+    <value>Кол-во пролетов</value>
+  </data>
+  <data name="NumberOfSpansShallBeAtLeastTwo" xml:space="preserve">
+    <value>Количество полетов должно быть не менее двух!</value>
+  </data>
+  <data name="NumberOfStoreys" xml:space="preserve">
+    <value>Этажность</value>
+  </data>
+  <data name="NumOfSpansNotWholeNumber" xml:space="preserve">
+    <value>Количество пролетов не является целым числом!</value>
+  </data>
+  <data name="oneSpan" xml:space="preserve">
+    <value>один</value>
+  </data>
+  <data name="OneStorey" xml:space="preserve">
+    <value>одноэтажная</value>
+  </data>
+  <data name="ParamOfBottomPart" xml:space="preserve">
+    <value>Параметры нижнего участка</value>
+  </data>
+  <data name="ParamOfColumn" xml:space="preserve">
+    <value>Параметры стойки</value>
+  </data>
+  <data name="ParamOfTopPart" xml:space="preserve">
+    <value>Параметры верхнего участка</value>
+  </data>
+  <data name="ParamsOfFrame" xml:space="preserve">
+    <value>Параметры рамы</value>
+  </data>
+  <data name="ParamsOfFrameOnLeft" xml:space="preserve">
+    <value>Параметры рамы слева от рассматриваемой колонны</value>
+  </data>
+  <data name="ParamsOfFrameOnRight" xml:space="preserve">
+    <value>Параметры рамы справа от рассматриваемой колонны</value>
+  </data>
+  <data name="Pic_BottomCrossbracing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\pic_bottomcrossbracing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pic_TopCrossbracing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\pic_topcrossbracing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PositionOfCrossbrace" xml:space="preserve">
+    <value>Расположение  связи</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="ResultsOfBottomPart" xml:space="preserve">
+    <value>Результаты для нижнего участка</value>
+  </data>
+  <data name="ResultsOfTopPart" xml:space="preserve">
+    <value>Результаты для верхнего участка</value>
+  </data>
+  <data name="rigidBearing" xml:space="preserve">
+    <value>жесткое    </value>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>Пролет</value>
+  </data>
+  <data name="swivelBearing" xml:space="preserve">
+    <value>шарнирное</value>
+  </data>
+  <data name="tf" xml:space="preserve">
+    <value>тс</value>
+  </data>
+  <data name="TopCrossbracing_RigidBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\topcrossbracing_rigidbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopCrossbracing_SwivelBearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\topcrossbracing_swivelbearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopStorey" xml:space="preserve">
+    <value>верхний</value>
+  </data>
+  <data name="UnfreeFrame" xml:space="preserve">
+    <value>несвободная</value>
+  </data>
+  <data name="UnfreeMultiplestoreysBottomstoreyRigidbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreysbottomstoreyrigidbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysBottomstoreyRigidbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreysbottomstoreyrigidbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysBottomstoreySwivelbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreysbottomstoreyswivelbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysBottomstoreySwivelbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreysbottomstoreyswivelbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysMiddlestoreyExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreysmiddlestoreyexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysMiddlestoreyMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreysmiddlestoreymiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysTopstoreyExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreystopstoreyexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeMultiplestoreysTopstoreyMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreemultiplestoreystopstoreymiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeOnestoreyRigidbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreeonestoreyrigidbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeOnestoreyRigidbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreeonestoreyrigidbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeOnestoreySwivelbearingExterme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreeonestoreyswivelbearingexterme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnfreeOnestoreySwivelbearingMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\unfreeonestoreyswivelbearingmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="ValueOfCCanNotBeLessOfH" xml:space="preserve">
+    <value>Значение c должно быть менее h!</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Значения</value>
+  </data>
+  <data name="IcOnIi1" xml:space="preserve">
+    <value>Ic/Ii1</value>
+  </data>
+  <data name="IcOnIi2" xml:space="preserve">
+    <value>Ic/Ii2</value>
+  </data>
+  <data name="IcOnIs1" xml:space="preserve">
+    <value>Ic/Is1</value>
+  </data>
+  <data name="SolutionNotFound" xml:space="preserve">
+    <value>Решение не найдено!</value>
+  </data>
+  <data name="RatioOfLengthExceedBottomLimit" xml:space="preserve">
+    <value>Соотношение длины верхней и нижней части (l2/l1) меньше нижнего предела (0.1).</value>
+  </data>
+  <data name="RatioOfLengthExceedBottomLimitColumnWithIncompleteCoupling" xml:space="preserve">
+    <value>Соотношение высоты верхней и нижней части (h2/h1) меньше нижнего предела (0.01).</value>
+  </data>
+  <data name="RatioOfLengthExceedTopLimit" xml:space="preserve">
+    <value>Соотношение длины верхней и нижней части (l2/l1) больше верхнего предела (2.0).</value>
+  </data>
+  <data name="RatioOfLengthExceedTopLimitColumnWithIncompleteCoupling" xml:space="preserve">
+    <value>Соотношение высоты верхней и нижней части (h2/h1) больше верхнего предела (100).</value>
+  </data>
+  <data name="RatioOfLinearRigidityExceedLimit" xml:space="preserve">
+    <value>Соотношение погонной жесткости верхней и нижней части (I2/l2)/(I1/l1) выше допустимого.</value>
+  </data>
+  <data name="RatioOfRigidityExceedBottomLimit" xml:space="preserve">
+    <value>Соотношение жесткости верхней и нижней части (I2/I1) меньше нижнего предела (0.04).</value>
+  </data>
+  <data name="RatioOfRigidityExceedBottomLimitColumnWithIncompleteCoupling" xml:space="preserve">
+    <value>Соотношение жесткости верхней и нижней части (I2/I1) меньше нижнего предела (0.01).</value>
+  </data>
+  <data name="RatioOfRigidityExceedTopLimit" xml:space="preserve">
+    <value>Соотношение жесткости верхней и нижней части (I2/I1) больше верхнего предела (1.0).</value>
+  </data>
+  <data name="RatioOfRigidityExceedTopLimitColumnWithIncompleteCoupling" xml:space="preserve">
+    <value>Соотношение жесткости верхней и нижней части (I2/I1) больше верхнего предела (16).</value>
+  </data>
+</root>

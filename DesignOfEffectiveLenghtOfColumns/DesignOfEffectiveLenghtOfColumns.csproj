@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFFAF458-6A79-4399-BED7-87B13EF6D949}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignOfEffectiveLenghtOfColumns</RootNamespace>
+    <AssemblyName>DesignOfEffectiveLenghtOfColumns</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DesignOfEffectiveLengthOfColumnWithIncompleteCoupling.cs" />
+    <Compile Include="DesingOfEffectiveLenghtOfSimpleColumn.cs" />
+    <Compile Include="DesingOfEffectiveLenghtOfSteppedColumn.cs" />
+    <Compile Include="EffectiveLenghtOfSimpleColumn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EffectiveLenghtOfSimpleColumn.Designer.cs">
+      <DependentUpon>EffectiveLenghtOfSimpleColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EffectiveLenghtOfSteppedColumn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EffectiveLenghtOfSteppedColumn.Designer.cs">
+      <DependentUpon>EffectiveLenghtOfSteppedColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EffectiveLengthOfColumnWithIncompleteCoupling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EffectiveLengthOfColumnWithIncompleteCoupling.Designer.cs">
+      <DependentUpon>EffectiveLengthOfColumnWithIncompleteCoupling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormForDesignOfEffectiveLenghtOfColumns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormForDesignOfEffectiveLenghtOfColumns.Designer.cs">
+      <DependentUpon>FormForDesignOfEffectiveLenghtOfColumns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneralRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="IMyDesignClass.cs" />
+    <Compile Include="IMyUserControl.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EffectiveLenghtOfSimpleColumn.resx">
+      <DependentUpon>EffectiveLenghtOfSimpleColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EffectiveLenghtOfSteppedColumn.resx">
+      <DependentUpon>EffectiveLenghtOfSteppedColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EffectiveLengthOfColumnWithIncompleteCoupling.resx">
+      <DependentUpon>EffectiveLengthOfColumnWithIncompleteCoupling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormForDesignOfEffectiveLenghtOfColumns.resx">
+      <DependentUpon>FormForDesignOfEffectiveLenghtOfColumns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GeneralRes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>GeneralRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysBottomstoreyRigidbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysBottomstoreyRigidbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysBottomstoreySwivelbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysBottomstoreySwivelbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysMiddlestoreyExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysMiddlestoreyMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysTopstoreyExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeMultiplestoreysTopstoreyMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeOnestoreyRigidbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeOnestoreyRigidbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeOnestoreySwivelbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeOnestoreySwivelbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysBottomstoreyRigidbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysBottomstoreyRigidbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysBottomstoreySwivelbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysBottomstoreySwivelbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysMiddlestoreyExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysMiddlestoreyMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysTopstoreyExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeMultiplestoreysTopstoreyMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeOnestoreyRigidbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeOnestoreyRigidbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeOnestoreySwivelbearingExterme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnfreeOnestoreySwivelbearingMiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_MultipleSpans_RigidBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_MultipleSpans_SwivelBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_OneSpan_RigidBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_OneSpan_SwivelBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_MultipleSpans_RigidBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_MultipleSpans_SwivelBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_OneSpan_RigidBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_OneSpan_SwivelBearingOfRafter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BottomCrossbracingSwivelBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_BottomCrossbracing_RigidBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_BottomCrossbracing_SwivelBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_TopCrossbracing_RigidBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Column_TopCrossbracing_SwivelBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_BottomCrossbracing_RigidBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_BottomCrossbracing_SwivelBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_TopCrossbracing_RigidBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_TopCrossbracing_SwivelBearing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EffLength.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TopCrossbracing_SwivelBearing.png" />
+    <None Include="Resources\TopCrossbracing_RigidBearing.png" />
+    <None Include="Resources\BottomCrossbracing_SwivelBearing.png" />
+    <None Include="Resources\BottomCrossbracing_RigidBearing.png" />
+    <None Include="Resources\Pic_TopCrossbracing.png" />
+    <None Include="Resources\Pic_BottomCrossbracing.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
